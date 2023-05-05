@@ -21,7 +21,7 @@ const ProjectDisplay = ({ link, image, title, tools, type }) => {
 
             <div className=''>
               <p>Tools used:</p>
-              <ul>{allTools}</ul>
+              <ul className='p-3'>{allTools}</ul>
             </div>
           </div>
 
