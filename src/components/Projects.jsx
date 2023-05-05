@@ -2,7 +2,6 @@ import React from 'react';
 import { projects } from './Data';
 import ProjectDisplay from './ProjectDisplay';
 import { v4 as uuidv4 } from 'uuid';
-import Carousel from './Carousel';
 
 const Projects = () => {
   const allProjects = projects.map((project) => {
@@ -10,12 +9,10 @@ const Projects = () => {
   });
 
   return (
-    <div className=''>
+    <div className='bg-teal-100/50 py-10 px-20'>
       <h1>Projects</h1>
 
-      <Carousel>
-        <div className='flex justify-between'>{allProjects}</div>
-      </Carousel>
+      <div className='flex flex-wrap-reverse justify-around'>{allProjects}</div>
     </div>
   );
 };

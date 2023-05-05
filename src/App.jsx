@@ -10,12 +10,12 @@ import WhatNext from './components/WhatNext';
 function App() {
   return (
     // <div className='flex flex-col'>
-    <div className='w-screen h-screen flex'>
+    <div className='h-screen flex'>
       <div className=''>
         <Sidebar />
       </div>
 
-      <div className='bg-teal-100/50 grow h-[600px] py-10 px-20 my-auto'>
+      <div className='grow my-auto ml-60'>
         <Routes>
           <Route path='/' element={<About />} />
           <Route path='/about' element={<About />} />

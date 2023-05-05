@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Sidebar = () => {
   return (
-    <div className='h-screen w-60 bg-red-300/50 py-8 px-4 border-r border-green-600'>
+    <div className='h-screen w-60 bg-red-300/50 py-8 px-4 border-r border-green-600 fixed'>
       <div className='flex flex-col items-center'>
         <img
           src={ProfileImage}

@@ -6,21 +6,21 @@ const ProjectDisplay = ({ image, title, tools, type }) => {
   });
 
   return (
-    <div className='flex flex-col w-80 h-[360px] m-3 mt-10 border bg-white shadow'>
+    <div className='flex flex-col justify-stretch w-80 h-[540px] mt-10 bg-teal-600 rounded-lg overflow-hidden shadow-md'>
       <div className='h-1/2'>
-        <img src={image} alt='' />
+        <img src={image} alt='' className=' w-full h-full' />
       </div>
 
-      <div className='p-3'>
-        <div>
-          <h2>{title}</h2>
+      <div className='p-3 text-teal-900 '>
+        <div className='mb-4'>
+          <h3 className='leading-7'>{title}</h3>
         </div>
 
-        <div className='mb-10'>
+        <div className=''>
           <ul>{allTools}</ul>
         </div>
 
-        <div>
+        <div className=''>
           <p>{type}</p>
         </div>
       </div>
