@@ -36,11 +36,11 @@ const Sidebar = () => {
               <FaTwitter />
             </Link>
 
-            <Link to=''>
+            <Link to='https://github.com/ichiomafrancis'>
               <FaGithub />
             </Link>
 
-            <Link to=''>
+            <Link to='https://www.linkedin.com/in/ifeanyi-chioma-137214b6/'>
               <FaLinkedinIn />
             </Link>
 
