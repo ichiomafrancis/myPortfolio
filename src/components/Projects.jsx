@@ -9,7 +9,7 @@ const Projects = () => {
   });
 
   return (
-    <div className='bg-teal-100/50 py-10 px-20'>
+    <div className='bg-teal-100/50 p-10'>
       <h1>Projects</h1>
 
       <div className='flex flex-wrap-reverse justify-around'>{allProjects}</div>

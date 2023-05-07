@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import ProfileImage from '../assets/profile-img.jpg';
 import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
@@ -20,13 +20,27 @@ const Sidebar = () => {
 
       <div className='flex flex-col '>
         <div className='flex justify-center mt-12'>
-          <nav className='flex flex-col text-grey-300 text-lg font-semibold gap-3'>
-            <Link to='/About '>About</Link>
-            <Link to='/education'>Education</Link>
-            <Link to='/skills'>Skills</Link>
-            <Link to='/projects'>Projects</Link>
-            <Link to='/interests'>Interest</Link>
-            <Link to='/next'>What Next?</Link>
+          <nav className='flex flex-col text-grey-300 text-lg font-semibold'>
+            <NavLink
+              to='/About'
+              className='pb-2 hover:bg-blue-500 hover:border-r-4 '>
+              About
+            </NavLink>
+            <NavLink to='/education' className='pb-2'>
+              Education
+            </NavLink>
+            <NavLink to='/skills' className='pb-2'>
+              Skills
+            </NavLink>
+            <NavLink to='/projects' className='pb-2'>
+              Projects
+            </NavLink>
+            <NavLink to='/interests' className='pb-2'>
+              Interest
+            </NavLink>
+            <NavLink to='/next' className='pb-2'>
+              What Next?
+            </NavLink>
           </nav>
         </div>
 
