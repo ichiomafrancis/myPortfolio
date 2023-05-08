@@ -45,7 +45,7 @@ const Sidebar = () => {
           </nav>
         </div>
 
-        <div className='mt-20'>
+        <div className='mt-20 mb-6'>
           <nav className='flex justify-center gap-4 items-center text-2xl font-semibold'>
             <Link to='' className=''>
               <FaTwitter />
@@ -63,6 +63,11 @@ const Sidebar = () => {
               <FaEnvelope />
             </Link>
           </nav>
+        </div>
+        <div className='flex justify-center items-center text-xs'>
+          <Link to='https://github.com/ichiomafrancis/myPortfolio'>
+            Designed & Built by Me
+          </Link>
         </div>
       </div>
     </div>
