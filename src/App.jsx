@@ -10,7 +10,7 @@ import WhatNext from './components/WhatNext';
 function App() {
   return (
     // <div className='flex flex-col'>
-    <div className='h-screen flex'>
+    <div className='min-h-screen flex'>
       <div className=''>
         <Sidebar />
       </div>

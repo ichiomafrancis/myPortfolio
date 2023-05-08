@@ -26,7 +26,7 @@ const Skills = () => {
       <h3 className='mt-6'>PROGRAMMING LANGUAGES & TOOLS</h3>
 
       <div className='flex flex-col '>
-        <ul className=' flex flex-col gap-1 mt-4 ml-5 font-medium'>
+        <ul className=' flex flex-col gap-1 mt-4 ml-5 font-medium text-black'>
           {allSkills}
         </ul>
 

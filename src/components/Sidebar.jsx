@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Sidebar = () => {
   return (
-    <div className='h-screen w-60 bg-red-300/50 py-8 px-4 border-r border-green-600 fixed'>
+    <div className='min-h-screen w-60 bg-red-300/50 py-8 px-4 border-r border-green-600 fixed'>
       <div className='flex flex-col items-center'>
         <img
           src={ProfileImage}
@@ -23,7 +23,8 @@ const Sidebar = () => {
           <nav className='flex flex-col text-grey-300 text-lg font-semibold'>
             <NavLink
               to='/About'
-              className='pb-2 hover:bg-blue-500 hover:border-r-4 '>
+              className='pb-2 hover:bg-blue-500 hover:border-r-4 '
+            >
               About
             </NavLink>
             <NavLink to='/education' className='pb-2'>

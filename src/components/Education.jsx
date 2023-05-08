@@ -3,7 +3,7 @@ const Education = () => {
     <div className='bg-teal-100/50 h-[600px] py-10 px-20'>
       <h1>Education</h1>
 
-      <div className=''>
+      <div className='text-black'>
         <div className='flex justify-between mt-10'>
           <div className=''>
             <h2>Stutern</h2>
