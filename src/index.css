@@ -18,15 +18,12 @@ body {
   font-weight: 400;
   color: #444;
   background-color: teal;
-  height: 100vh;
 }
 
-/* @layer base { */
 h1 {
   font-size: 3rem;
   font-weight: 700;
 }
-/* } */
 
 h2 {
   font-size: 2rem;

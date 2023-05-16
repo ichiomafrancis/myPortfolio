@@ -1,6 +1,7 @@
-import { NavLink, Link } from 'react-router-dom';
 import ProfileImage from '../assets/profile-img.jpg';
 import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { Link, animateScroll as scroll } from 'react-scroll';
+// import { Link } from 'react-scroll';
 
 const Sidebar = () => {
   return (
@@ -21,53 +22,115 @@ const Sidebar = () => {
       <div className='flex flex-col '>
         <div className='flex justify-center mt-12'>
           <nav className='flex flex-col text-grey-300 text-lg font-semibold'>
-            <NavLink
-              to='/About'
-              className='pb-2 hover:bg-blue-500 hover:border-r-4 '
+            <Link
+              activeClass='active'
+              to='About'
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              className='pb-2'
             >
               About
-            </NavLink>
-            <NavLink to='/education' className='pb-2'>
+            </Link>
+
+            <Link
+              activeClass='active'
+              to='education'
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              className='pb-2'
+            >
               Education
-            </NavLink>
-            <NavLink to='/skills' className='pb-2'>
+            </Link>
+
+            <Link
+              activeClass='active'
+              to='skills'
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              className='pb-2'
+            >
               Skills
-            </NavLink>
-            <NavLink to='/projects' className='pb-2'>
+            </Link>
+
+            <Link
+              activeClass='active'
+              to='projects'
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              className='pb-2'
+            >
               Projects
-            </NavLink>
-            <NavLink to='/interests' className='pb-2'>
+            </Link>
+
+            <Link
+              activeClass='active'
+              to='interests'
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              className='pb-2'
+            >
               Interest
-            </NavLink>
-            <NavLink to='/next' className='pb-2'>
+            </Link>
+
+            <Link
+              activeClass='active'
+              to='next'
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              className='pb-2'
+            >
               What Next?
-            </NavLink>
+            </Link>
           </nav>
         </div>
 
         <div className='mt-20 mb-6'>
           <nav className='flex justify-center gap-4 items-center text-2xl font-semibold'>
-            <Link to='' className=''>
+            <a href='#' target='_blank' rel='noopener noreferrer'>
               <FaTwitter />
-            </Link>
+            </a>
 
-            <Link to='https://github.com/ichiomafrancis'>
+            <a
+              href='https://github.com/ichiomafrancis'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FaGithub />
-            </Link>
+            </a>
 
-            <Link to='https://www.linkedin.com/in/ifeanyi-chioma-137214b6/'>
+            <a
+              href='https://www.linkedin.com/in/ifeanyi-chioma-137214b6/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FaLinkedinIn />
-            </Link>
+            </a>
 
-            <Link to='mailto:ichiomafrancis@gmail.com'>
+            <a href='mailto:ichiomafrancis@gmail.com'>
               <FaEnvelope />
-            </Link>
+            </a>
           </nav>
         </div>
         <div className='flex justify-center items-center text-xs'>
-          <Link to='https://github.com/ichiomafrancis/myPortfolio'>
+          <a
+            href='https://github.com/ichiomafrancis/myPortfolio'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Designed & Built by Me
-          </Link>
+          </a>
         </div>
       </div>
     </div>
