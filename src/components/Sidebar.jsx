@@ -1,10 +1,10 @@
 import ProfileImage from '../assets/profile-img.jpg';
 import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const Sidebar = () => {
   return (
-    <div className='min-h-screen w-60 bg-red-300/50 py-8 px-4 border-r border-green-600 fixed'>
+    <div className='sidebar min-h-screen w-60 bg-red-300/50 py-8 px-4 border-r border-green-600 fixed'>
       <div className='flex flex-col items-center'>
         <img
           src={ProfileImage}
@@ -19,79 +19,79 @@ const Sidebar = () => {
       </div>
 
       <div className='flex flex-col '>
-        <div className='flex justify-center mt-12'>
+        <div className='text-center mt-12'>
           <nav className='flex flex-col text-grey-300 text-lg font-semibold'>
-            <Link
+            <ScrollLink
               activeClass='active'
               to='about'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={500}
-              className='pb-2 cursor-pointer'
+              className='nav-link'
             >
               About
-            </Link>
+            </ScrollLink>
 
-            <Link
+            <ScrollLink
               activeClass='active'
               to='education'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={500}
-              className='pb-2 cursor-pointer'
+              className='nav-link'
             >
               Education
-            </Link>
+            </ScrollLink>
 
-            <Link
+            <ScrollLink
               activeClass='active'
               to='skills'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={500}
-              className='pb-2 cursor-pointer'
+              className='nav-link'
             >
               Skills
-            </Link>
+            </ScrollLink>
 
-            <Link
+            <ScrollLink
               activeClass='active'
               to='projects'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={500}
-              className='pb-2 cursor-pointer'
+              className='nav-link'
             >
               Projects
-            </Link>
+            </ScrollLink>
 
-            <Link
+            <ScrollLink
               activeClass='active'
               to='interests'
               spy={true}
               smooth={true}
               offset={0}
               duration={500}
-              className='pb-2 cursor-pointer'
+              className='nav-link'
             >
               Interest
-            </Link>
+            </ScrollLink>
 
-            <Link
+            <ScrollLink
               activeClass='active'
               to='next'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={500}
-              className='pb-2 cursor-pointer'
+              className='nav-link'
             >
               What Next?
-            </Link>
+            </ScrollLink>
           </nav>
         </div>
 
@@ -110,7 +110,7 @@ const Sidebar = () => {
             </a>
 
             <a
-              href='https://www.linkedin.com/in/ifeanyi-chioma-137214b6/'
+              href='https://www.ScrollLinkedin.com/in/ifeanyi-chioma-137214b6/'
               target='_blank'
               rel='noopener noreferrer'
             >

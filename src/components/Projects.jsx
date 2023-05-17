@@ -9,7 +9,7 @@ const Projects = () => {
   });
 
   return (
-    <div id='projects' className=' bg-teal-100/50 px-10'>
+    <div id='projects' className='min-h-screen bg-teal-100/50 py-10 px-10'>
       <h1>Projects</h1>
 
       <div className='flex flex-wrap-reverse justify-around'>{allProjects}</div>

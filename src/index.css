@@ -13,24 +13,29 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #444;
-  background-color: teal;
+  @apply font-open text-base font-normal text-[#444] bg-[teal];
 }
 
 h1 {
-  font-size: 3rem;
-  font-weight: 700;
+  @apply text-5xl font-bold;
 }
 
 h2 {
-  font-size: 2rem;
-  font-weight: 600;
+  @apply text-3xl font-semibold;
 }
 
 h3 {
-  font-size: 1.5rem;
-  font-weight: 500;
+  @apply text-2xl font-medium;
+}
+
+.nav-link {
+  @apply pb-2 cursor-pointer;
+}
+
+.nav-link:hover {
+  @apply border-r border-orange-500 pr-3;
+}
+
+.active {
+  @apply border-r border-orange-500 pr-3;
 }
