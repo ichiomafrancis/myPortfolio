@@ -1,6 +1,6 @@
 const Interests = () => {
   return (
-    <div className='bg-teal-100/50 h-screen py-10 px-20 border-b border-black'>
+    <div id='interests' className='bg-teal-100/50 h-screen py-20 px-20'>
       <h1>Interests</h1>
       <p className='mt-12 text-black'>
         I spend a large part of my free time watching web development tutorials,

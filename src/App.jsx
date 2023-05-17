@@ -1,12 +1,10 @@
 import Sidebar from './components/Sidebar';
-import { Routes, Route } from 'react-router-dom';
-// import About from './components/About';
-// import Education from './components/Education';
-// import Skills from './components/Skills';
-// import Projects from './components/Projects';
-// import Interests from './components/Interests';
-// import WhatNext from './components/WhatNext';
-import Content from './components/Content';
+import About from './components/About';
+import Education from './components/Education';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Interests from './components/Interests';
+import WhatNext from './components/WhatNext';
 
 function App() {
   return (
@@ -15,10 +13,13 @@ function App() {
         <Sidebar />
       </div>
 
-      <div className='grow my-auto ml-60'>
-        <Routes>
-          <Route path='/' element={<Content />} />
-        </Routes>
+      <div className='grow ml-60'>
+        <About />
+        <Education />
+        <Skills />
+        <Projects />
+        <Interests />
+        <WhatNext />
       </div>
     </div>
   );

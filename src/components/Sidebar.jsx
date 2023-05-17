@@ -1,7 +1,6 @@
 import ProfileImage from '../assets/profile-img.jpg';
 import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import { Link, animateScroll as scroll } from 'react-scroll';
-// import { Link } from 'react-scroll';
 
 const Sidebar = () => {
   return (
@@ -24,12 +23,12 @@ const Sidebar = () => {
           <nav className='flex flex-col text-grey-300 text-lg font-semibold'>
             <Link
               activeClass='active'
-              to='About'
+              to='about'
               spy={true}
               smooth={true}
-              offset={-75}
+              offset={-100}
               duration={500}
-              className='pb-2'
+              className='pb-2 cursor-pointer'
             >
               About
             </Link>
@@ -39,9 +38,9 @@ const Sidebar = () => {
               to='education'
               spy={true}
               smooth={true}
-              offset={-75}
+              offset={-100}
               duration={500}
-              className='pb-2'
+              className='pb-2 cursor-pointer'
             >
               Education
             </Link>
@@ -51,9 +50,9 @@ const Sidebar = () => {
               to='skills'
               spy={true}
               smooth={true}
-              offset={-75}
+              offset={-100}
               duration={500}
-              className='pb-2'
+              className='pb-2 cursor-pointer'
             >
               Skills
             </Link>
@@ -63,9 +62,9 @@ const Sidebar = () => {
               to='projects'
               spy={true}
               smooth={true}
-              offset={-75}
+              offset={-100}
               duration={500}
-              className='pb-2'
+              className='pb-2 cursor-pointer'
             >
               Projects
             </Link>
@@ -75,9 +74,9 @@ const Sidebar = () => {
               to='interests'
               spy={true}
               smooth={true}
-              offset={-75}
+              offset={0}
               duration={500}
-              className='pb-2'
+              className='pb-2 cursor-pointer'
             >
               Interest
             </Link>
@@ -87,9 +86,9 @@ const Sidebar = () => {
               to='next'
               spy={true}
               smooth={true}
-              offset={-75}
+              offset={-100}
               duration={500}
-              className='pb-2'
+              className='pb-2 cursor-pointer'
             >
               What Next?
             </Link>

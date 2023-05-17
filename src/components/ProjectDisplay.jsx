@@ -1,5 +1,4 @@
 import { v4 as uuidv4 } from 'uuid';
-import { Link } from 'react-router-dom';
 
 const ProjectDisplay = ({ link, image, title, tools, type }) => {
   const allTools = tools.map((tool) => {
@@ -7,7 +6,7 @@ const ProjectDisplay = ({ link, image, title, tools, type }) => {
   });
 
   return (
-    <Link to={link}>
+    <a href={link} target='_blank' rel='noopener noreferrer'>
       <div className='flex flex-col w-80 h-[540px] mt-10 bg-teal-600 rounded-lg overflow-hidden shadow-md'>
         <div className='h-1/2'>
           <img src={image} alt='' className=' w-full h-full' />
@@ -30,7 +29,7 @@ const ProjectDisplay = ({ link, image, title, tools, type }) => {
           </div>
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 

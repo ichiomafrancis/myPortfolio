@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div className='bg-teal-100/50 h-screen py-10 px-20 border-b border-black'>
+    <div id='education' className='bg-teal-100/50 h-screen py-10 px-20'>
       <h1>Education</h1>
 
       <div className='text-black'>
