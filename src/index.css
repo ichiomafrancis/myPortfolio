@@ -33,9 +33,9 @@ h3 {
 }
 
 .nav-link:hover {
-  @apply border-r border-orange-500 pr-3;
+  @apply border-r-4 border-orange-500 pr-3;
 }
 
 .active {
-  @apply border-r border-orange-500 pr-3;
+  @apply border-r-4 border-orange-500 pr-3 text-black;
 }

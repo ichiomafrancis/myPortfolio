@@ -21,7 +21,7 @@ const logos = skillLogos.map((logo) => {
 
 const Skills = () => {
   return (
-    <div id='skills' className='bg-teal-100/50 h-screen py-10 px-20'>
+    <div id='skills' className='h-screen py-10 px-20 border-b border-gray-300'>
       <h1>Skills</h1>
       <h3 className='mt-6'>PROGRAMMING LANGUAGES & TOOLS</h3>
 

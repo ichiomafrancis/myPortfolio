@@ -5,21 +5,27 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Interests from './components/Interests';
 import WhatNext from './components/WhatNext';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className='min-h-screen flex'>
+    <div className=''>
       <div className=''>
-        <Sidebar />
+        <Header />
       </div>
+      <div className='lg:flex'>
+        <div className='hidden lg:block'>
+          <Sidebar />
+        </div>
 
-      <div className='grow ml-60'>
-        <About />
-        <Education />
-        <Skills />
-        <Projects />
-        <Interests />
-        <WhatNext />
+        <div className='w-screen bg-teal-100/50 lg:grow lg:ml-60 pt-12 lg:pt-0'>
+          <About />
+          <Education />
+          <Skills />
+          <Projects />
+          <Interests />
+          <WhatNext />
+        </div>
       </div>
     </div>
   );

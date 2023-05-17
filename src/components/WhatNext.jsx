@@ -1,6 +1,6 @@
 const WhatNext = () => {
   return (
-    <div id='next' className='bg-teal-100/50 h-screen py-10 px-20'>
+    <div id='next' className='h-screen py-10 px-20 border-b border-gray-300'>
       <h1>What's Next</h1>
       <div className='mt-12 text-black'>
         <h3>Currently Learning:</h3>

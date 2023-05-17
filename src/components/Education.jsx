@@ -1,6 +1,9 @@
 const Education = () => {
   return (
-    <div id='education' className='bg-teal-100/50 h-screen py-10 px-20'>
+    <div
+      id='education'
+      className='h-screen py-10 px-20 border-b border-gray-300'
+    >
       <h1>Education</h1>
 
       <div className='text-black'>
