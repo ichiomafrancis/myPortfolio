@@ -1,27 +1,24 @@
 const Education = () => {
   return (
-    <div
-      id='education'
-      className='h-screen py-10 px-20 border-b border-gray-300'
-    >
+    <div id='education' className='h-screen p-10 border-b border-gray-300'>
       <h1>Education</h1>
 
       <div className='text-black'>
-        <div className='flex justify-between mt-10'>
+        <div className='sm:flex sm:justify-between mt-10'>
           <div className=''>
-            <h2>Stutern</h2>
-            <h3>Front End Developer</h3>
-            <p>Front End Specialization</p>
+            <h2 className='mb-2'>Stutern</h2>
+            <h3 className='mb-4'>Front End Developer</h3>
+            <p className='mb-2'>Front End Specialization</p>
           </div>
           <h3>June 2022 - April 2023</h3>
         </div>
 
-        <div className='flex justify-between mt-10'>
+        <div className='sm:flex sm:justify-between mt-20'>
           <div>
-            <h2>Obafemi Awolowo University</h2>
-            <h3>Bachelor of Science (BSc)</h3>
+            <h2 className='mb-2'>Obafemi Awolowo University</h2>
+            <h3 className='mb-4'>Bachelor of Science (BSc)</h3>
             <p>Mechanical Engineering</p>
-            <p>Grade - 4.12</p>
+            <p className='mb-2'>Grade - 4.12</p>
           </div>
           <h3>May 2010 - June 2015</h3>
         </div>

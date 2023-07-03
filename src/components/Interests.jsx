@@ -1,9 +1,6 @@
 const Interests = () => {
   return (
-    <div
-      id='interests'
-      className='h-screen py-10 px-20 border-b border-gray-300'
-    >
+    <div id='interests' className='h-screen p-10 border-b border-gray-300'>
       <h1>Interests</h1>
       <p className='mt-12 text-black'>
         I spend a large part of my free time watching web development tutorials,

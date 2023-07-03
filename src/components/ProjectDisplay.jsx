@@ -6,16 +6,16 @@ const ProjectDisplay = ({ link, image, title, tools }) => {
   });
 
   return (
-    <div>
+    <div className='mt-6'>
       <a href={link} target='_blank' rel='noopener noreferrer'>
         <img
           src={image}
           alt=''
-          className='flex flex-col w-80 h-64 mt-6 bg-teal-600 rounded-lg overflow-hidden shadow-md'
+          className='w-80 h-64 rounded-lg overflow-hidden shadow-md'
         />
       </a>
 
-      <h3 className='p-3 text-gray-900 text-center leading-7'>{title}</h3>
+      <h3 className='pt-3 text-gray-900 text-center leading-7'>{title}</h3>
     </div>
   );
 };

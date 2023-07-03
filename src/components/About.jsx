@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div
       id='about'
-      className='h-screen w-full py-10 px-20 border-b border-gray-300'
+      className='min-h-screen w-full p-10 border-b border-gray-300'
     >
       <h1>About Me</h1>
 

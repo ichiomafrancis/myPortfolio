@@ -1,12 +1,18 @@
 import { FaBars } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Header = () => {
   return (
     <div>
-      <div className='h-12 w-screen bg-orange-500 flex justify-end lg:hidden'>
+      <div className='flex justify-end lg:hidden'>
         <FaBars />
+        <FaGithub />
+        <FaLinkedinIn />
+        <FaTwitter />
+        <FaEnvelope />
       </div>
     </div>
+    // bg-orange-500
   );
 };
 
