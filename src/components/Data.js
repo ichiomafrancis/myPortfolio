@@ -1,3 +1,13 @@
+import Html from '../assets/html.svg';
+import Css from '../assets/css.svg';
+import JS from '../assets/js.svg';
+import Tailwind from '../assets/tailwindcss.svg';
+import React from '../assets/React.svg';
+import Redux from '../assets/redux.svg';
+import Git from '../assets/git.svg';
+import TS from '../assets/ts.svg';
+import NextJs from '../assets/nextjs.svg';
+
 import facts from '../assets/react-facts.jpg';
 import airbnb from '../assets/airbnb.jpg';
 import citrone from '../assets/citrone.jpg';
@@ -6,16 +16,16 @@ import todo from '../assets/todo.jpg';
 import travel from '../assets/travel.jpg';
 
 export const skills = [
-  'HTML5',
-  'CSS3',
-  'Tailwind CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Git',
-  'Collaboration',
-  'VS code',
-  'Linux Command Line',
+  { title: 'HTML', logo: Html },
+  { title: 'CSS', logo: Css },
+  { title: 'Tailwind CSS', logo: JS },
+  { title: 'JavaScript', logo: Tailwind },
+  { title: 'React', logo: React },
+  { title: 'Redux', logo: Redux },
+  { title: 'Git', logo: Git },
+  { title: 'TypeScript', logo: TS },
+  { title: 'NextJs', logo: NextJs },
+  // { title: 'Linux Command Line', logo: '' },
 ];
 
 export const projects = [
@@ -42,7 +52,7 @@ export const projects = [
   },
   {
     image: table,
-    title: 'Prime Numbers Multiplication Table',
+    title: 'Multiplication Table',
     tools: ['React', 'CSS'],
     type: 'Personal Project',
     link: 'https://prime-multiplication-table.vercel.app/',

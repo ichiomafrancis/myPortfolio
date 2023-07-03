@@ -13,7 +13,7 @@
 }
 
 body {
-  @apply font-open text-base font-normal text-[#444] bg-[teal];
+  @apply font-open text-base font-normal text-[#444];
 }
 
 h1 {
