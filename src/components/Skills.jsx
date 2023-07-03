@@ -16,10 +16,7 @@ const allSkills = skills.map((skill) => {
 
 const Skills = () => {
   return (
-    <div
-      id='skills'
-      className='min-h-[800px] m-auto p-10 border-b border-gray-300'
-    >
+    <div id='skills' className='p-10 border-b border-gray-300'>
       <h1>Skills</h1>
       <h3 className='mt-6'>PROGRAMMING LANGUAGES & TOOLS</h3>
 
