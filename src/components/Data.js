@@ -51,6 +51,13 @@ export const projects = [
     link: 'https://airbnb-clone-sandy-one.vercel.app/',
   },
   {
+    image: citrone,
+    title: 'Citrone Website Redesign',
+    tools: ['React', 'TailwindCSS', 'Git', 'Redux'],
+    type: 'Group Project/Collaboration',
+    link: 'https://citrone-redesign-crater.vercel.app/',
+  },
+  {
     image: table,
     title: 'Multiplication Table',
     tools: ['React', 'CSS'],
@@ -63,12 +70,5 @@ export const projects = [
     tools: ['React', 'CSS'],
     type: 'Personal Project',
     link: 'https://todo-list-flax-three.vercel.app/',
-  },
-  {
-    image: citrone,
-    title: 'Citrone Website Redesign',
-    tools: ['React', 'TailwindCSS', 'Git', 'Redux'],
-    type: 'Group Project/Collaboration',
-    link: 'https://citrone-redesign-crater.vercel.app/',
   },
 ];

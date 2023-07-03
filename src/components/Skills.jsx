@@ -16,14 +16,16 @@ const allSkills = skills.map((skill) => {
 
 const Skills = () => {
   return (
-    <div id='skills' className='p-10 border-b border-gray-300'>
-      <h1>Skills</h1>
-      <h3 className='mt-6'>PROGRAMMING LANGUAGES & TOOLS</h3>
+    <div className='h-screen flex items-center border-b border-gray-300'>
+      <div id='skills' className='p-10'>
+        <h1>Skills</h1>
+        <h3 className='mt-6'>PROGRAMMING LANGUAGES & TOOLS</h3>
 
-      <div className='flex lg:mx-20 my-10'>
-        <ul className='flex flex-wrap gap-4 lg:gap-10 justify-evenly items-center mt-4 lg:mt-10'>
-          {allSkills}
-        </ul>
+        <div className='flex lg:mx-20 my-10'>
+          <ul className='flex flex-wrap gap-4 lg:gap-10 justify-evenly items-center mt-4 lg:mt-10'>
+            {allSkills}
+          </ul>
+        </div>
       </div>
     </div>
   );
