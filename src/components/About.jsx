@@ -2,15 +2,11 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className='h-screen flex items-center border-b border-gray-300'>
+    <div className='h-screen flex flex-col border-b border-gray-300'>
       <div id='about' className='my-auto p-10 '>
-        <h1>About Me</h1>
-
-        <div className='text-base font-medium text-black text-center mt-3'>
-          <h1 className='text-xl font-bold'>Francis I. CHIOMA</h1>
-          <h3 className='text-base font-medium mt-2'>FrontEnd/Web</h3>
-          <h3 className='text-base font-medium'>Developer</h3>
-        </div>
+        <h1>Francis I. Chioma</h1>
+        <h3 className='mt-2'>FrontEnd/Web Developer</h3>
+        <h3 className='mt-4'>+2348139668285 ifrancischioma@gmail.com</h3>
 
         <p className='mt-12 text-black'>
           Hello! My name is Francis Ifeanyi Chioma and I like coding things from
@@ -22,24 +18,29 @@ const About = () => {
         </p>
 
         <div className='mt-20 mb-6'>
-          <nav className='flex justify-center gap-4 items-center text-2xl font-semibold'>
-            <a href='#' target='_blank' rel='noopener noreferrer'>
-              <FaTwitter />
-            </a>
+          <nav className='flex gap-4 text-3xl font-semibold'>
+            <div className='w-12 h-12 bg-red-200 rounded-full flex justify-center items-center'>
+              <a
+                href='#'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-white'>
+                <FaTwitter />
+              </a>
+            </div>
 
             <a
               href='https://github.com/ichiomafrancis'
               target='_blank'
               rel='noopener noreferrer'
-            >
+              className='text-white'>
               <FaGithub />
             </a>
 
             <a
               href='https://www.ScrollLinkedin.com/in/ifeanyi-chioma-137214b6/'
               target='_blank'
-              rel='noopener noreferrer'
-            >
+              rel='noopener noreferrer'>
               <FaLinkedinIn />
             </a>
 
@@ -52,8 +53,7 @@ const About = () => {
           <a
             href='https://github.com/ichiomafrancis/myPortfolio'
             target='_blank'
-            rel='noopener noreferrer'
-          >
+            rel='noopener noreferrer'>
             Designed & Built by Me
           </a>
         </div>

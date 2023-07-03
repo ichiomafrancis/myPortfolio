@@ -18,7 +18,7 @@ function App() {
           <Sidebar />
         </div>
 
-        <div className='bg-teal-100/50 lg:grow lg:ml-60'>
+        <div className='bg-teal-100/50 lg:grow lg:ml-80'>
           <About />
           <Education />
           <Skills />

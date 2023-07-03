@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <div className='h-screen flex flex-col border-b border-gray-300'>
-      <div id='education' className='p-10 my-auto'>
+      <div id='education' className='my-auto p-10'>
         <h1>Education</h1>
 
         <div className='text-black'>

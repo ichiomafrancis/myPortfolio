@@ -1,7 +1,7 @@
 const WhatNext = () => {
   return (
-    <div className='h-screen flex items-center border-b border-gray-300'>
-      <div id='next' className='p-10'>
+    <div className='h-screen flex flex-col border-b border-gray-300'>
+      <div id='next' className='my-auto p-10'>
         <h1>What's Next</h1>
         <div className='mt-12 text-black'>
           <h3>Currently Learning:</h3>

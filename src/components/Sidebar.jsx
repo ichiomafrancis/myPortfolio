@@ -3,7 +3,7 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const Sidebar = () => {
   return (
-    <div className='min-h-screen w-60 flex flex-col justify-center bg-red-300/50 py-8 border-r border-green-600 fixed'>
+    <div className='min-h-screen w-80 flex flex-col justify-center bg-red-300/50 py-8 border-r border-green-600 fixed'>
       <div className='flex flex-col items-center'>
         <img
           src={ProfileImage}
@@ -13,8 +13,8 @@ const Sidebar = () => {
       </div>
 
       <div className='flex flex-col '>
-        <div className='text-center mt-12'>
-          <nav className='flex flex-col text-grey-300 text-lg font-semibold'>
+        <div className='text-center mt-6 uppercase'>
+          <nav className='flex flex-col text-grey-300 text-base font-semibold'>
             <ScrollLink
               activeClass='active'
               to='about'
@@ -22,8 +22,7 @@ const Sidebar = () => {
               smooth={true}
               offset={0}
               duration={500}
-              className='nav-link'
-            >
+              className='nav-link p-4 pb-2'>
               About
             </ScrollLink>
 
@@ -34,8 +33,7 @@ const Sidebar = () => {
               smooth={true}
               offset={0}
               duration={500}
-              className='nav-link'
-            >
+              className='nav-link p-4 pb-2'>
               Education
             </ScrollLink>
 
@@ -46,8 +44,7 @@ const Sidebar = () => {
               smooth={true}
               offset={0}
               duration={500}
-              className='nav-link'
-            >
+              className='nav-link p-4 pb-2'>
               Skills
             </ScrollLink>
 
@@ -58,8 +55,7 @@ const Sidebar = () => {
               smooth={true}
               offset={0}
               duration={500}
-              className='nav-link'
-            >
+              className='nav-link p-4 pb-2'>
               Projects
             </ScrollLink>
 
@@ -70,8 +66,7 @@ const Sidebar = () => {
               smooth={true}
               offset={0}
               duration={500}
-              className='nav-link'
-            >
+              className='nav-link p-4 pb-2'>
               Interest
             </ScrollLink>
 
@@ -82,8 +77,7 @@ const Sidebar = () => {
               smooth={true}
               offset={0}
               duration={500}
-              className='nav-link'
-            >
+              className='nav-link p-4 pb-2'>
               What Next?
             </ScrollLink>
           </nav>
