@@ -4,7 +4,7 @@ const Education = () => {
       <div id='education' className='my-auto p-10'>
         <h1>Education</h1>
 
-        <div className='text-black'>
+        <div className=''>
           <div className='md:flex md:justify-between mt-10'>
             <div>
               <h2 className='mb-2'>Stutern</h2>

@@ -1,9 +1,9 @@
 const WhatNext = () => {
   return (
-    <div className='h-screen flex flex-col border-b border-gray-300'>
+    <div className='h-screen flex flex-col'>
       <div id='next' className='my-auto p-10'>
         <h1>What's Next</h1>
-        <div className='mt-12 text-black'>
+        <div className='mt-12'>
           <h3>Currently Learning:</h3>
           <div className='ml-6 mt-2'>
             <p>TypeScript</p>

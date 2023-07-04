@@ -7,16 +7,16 @@ const allSkills = skills.map((skill) => {
       <img
         src={skill.logo}
         alt=''
-        className='w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32'
+        className='w-16 h-16 lg:w-20 lg:h-20 xl:w-32 xl:h-32'
       />
-      <li className='font-medium text-black text-center'>{skill.title}</li>
+      <li className='font-medium  text-center'>{skill.title}</li>
     </div>
   );
 });
 
 const Skills = () => {
   return (
-    <div className='h-screen flex flex-col border-b border-gray-300'>
+    <div className='h-screen flex flex-col border-b border-[#ccc]'>
       <div id='skills' className='my-auto p-10'>
         <h1>Skills</h1>
         <h3 className='mt-6'>PROGRAMMING LANGUAGES & TOOLS</h3>

@@ -9,9 +9,13 @@ const Projects = () => {
   });
 
   return (
-    <div id='projects' className='p-10 border-b border-gray-300'>
-      <h1 className='mb-6'>Projects</h1>
-      <div className='flex flex-wrap-reverse justify-around'>{allProjects}</div>
+    <div className='border-b border-gray-300'>
+      <div id='projects' className='p-10'>
+        <h1 className='mb-6'>Projects</h1>
+        <div className='flex flex-wrap-reverse justify-around'>
+          {allProjects}
+        </div>
+      </div>
     </div>
   );
 };

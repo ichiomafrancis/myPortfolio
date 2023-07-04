@@ -9,8 +9,8 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className='bg-[teal]'>
-      <div className='fixed bg-white w-screen lg:hidden'>
+    <div className='h-full'>
+      <div className='h-16 w-screen flex justify-end items-center lg:hidden px-10 fixed bg-orange-primary'>
         <Header />
       </div>
       <div className='lg:flex'>
@@ -18,7 +18,7 @@ function App() {
           <Sidebar />
         </div>
 
-        <div className='bg-teal-100/50 lg:grow lg:ml-80'>
+        <div className='lg:grow lg:ml-80 pt-16 lg:pt-0'>
           <About />
           <Education />
           <Skills />

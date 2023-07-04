@@ -13,15 +13,15 @@
 }
 
 body {
-  @apply font-open text-base font-normal text-[#444];
+  @apply font-open text-base font-normal text-gray-secondary;
 }
 
 h1 {
-  @apply text-3xl md:text-5xl font-bold uppercase;
+  @apply text-3xl md:text-5xl font-bold text-black-primary uppercase;
 }
 
 h2 {
-  @apply text-2xl md:text-3xl font-semibold;
+  @apply text-2xl md:text-3xl font-semibold text-black-primary;
 }
 
 h3 {
@@ -33,9 +33,20 @@ h3 {
 }
 
 .nav-link:hover {
-  @apply border-r-4 border-orange-500 pr-3;
+  @apply pr-3;
 }
 
 .active {
-  @apply border-r-4 border-orange-500 pr-3 text-black;
+  @apply border-r-4 border-orange-500 pr-3 text-white;
+}
+
+/* Zoom in effect for the project Images */
+.hover a img {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hover a:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
