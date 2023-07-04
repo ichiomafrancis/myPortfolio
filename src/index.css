@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 
+/* Give default styles to some tags */
 body {
   @apply font-open text-base font-normal text-gray-secondary;
 }
@@ -28,6 +29,7 @@ h3 {
   @apply text-xl md:text-2xl font-medium;
 }
 
+/* Styling of the nav-link for the Links components */
 .nav-link {
   @apply pb-2 cursor-pointer;
 }
