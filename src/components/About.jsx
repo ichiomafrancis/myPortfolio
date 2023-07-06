@@ -2,13 +2,18 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className='h-screen flex flex-col border-b border-gray-300'>
-      <div id='about' className='my-auto p-10 '>
-        <h1>Francis Ifeanyi Chioma</h1>
+    <div className='h-screen flex items-center border-b border-gray-300'>
+      <section id='about' className='p-10 '>
+        <h1>
+          <span>Francis Ifeanyi </span>
+          <span className='text-orange-primary'>Chioma</span>
+        </h1>
         <h3 className='mt-2'>FrontEnd/Web Developer</h3>
         <h4 className='mt-2 text-xl'>
           <span>+2348139668285</span>
-          <span className='ml-6'>ifrancischioma@gmail.com</span>
+          <span className='ml-6 text-orange-primary'>
+            ifrancischioma@gmail.com
+          </span>
         </h4>
 
         <p className='mt-12'>
@@ -22,7 +27,7 @@ const About = () => {
 
         <nav className='mt-28 mb-6'>
           <ul className='flex gap-4 text-3xl font-semibold'>
-            <li className='w-12 h-12 bg-[#444] rounded-full flex justify-center items-center cursor-pointer'>
+            <li className='w-12 h-12 bg-black-secondary rounded-full flex justify-center items-center cursor-pointer'>
               <a
                 href='#'
                 target='_blank'
@@ -33,7 +38,7 @@ const About = () => {
               </a>
             </li>
 
-            <li className='w-12 h-12 bg-[#444] rounded-full flex justify-center items-center cursor-pointer'>
+            <li className='w-12 h-12 bg-black-secondary rounded-full flex justify-center items-center cursor-pointer'>
               <a
                 href='https://github.com/ichiomafrancis'
                 target='_blank'
@@ -44,7 +49,7 @@ const About = () => {
               </a>
             </li>
 
-            <li className='w-12 h-12 bg-[#444] rounded-full flex justify-center items-center cursor-pointer'>
+            <li className='w-12 h-12 bg-black-secondary rounded-full flex justify-center items-center cursor-pointer'>
               <a
                 href='https://www.linkedin.com/in/ifeanyi-chioma-137214b6/'
                 target='_blank'
@@ -55,14 +60,14 @@ const About = () => {
               </a>
             </li>
 
-            <li className='w-12 h-12 bg-[#444] rounded-full flex justify-center items-center cursor-pointer'>
+            <li className='w-12 h-12 bg-black-secondary rounded-full flex justify-center items-center cursor-pointer'>
               <a href='mailto:ifrancischioma@gmail.com' className='text-white'>
                 <FaEnvelope />
               </a>
             </li>
           </ul>
         </nav>
-      </div>
+      </section>
     </div>
   );
 };

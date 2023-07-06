@@ -16,8 +16,8 @@ const allSkills = skills.map((skill) => {
 
 const Skills = () => {
   return (
-    <div className='h-screen flex flex-col border-b border-[#ccc]'>
-      <div id='skills' className='my-auto p-10'>
+    <div className='h-screen flex items-center border-b border-gray-300'>
+      <section id='skills' className='p-10'>
         <h1>Skills</h1>
         <h3 className='mt-6'>PROGRAMMING LANGUAGES & TOOLS</h3>
 
@@ -26,7 +26,7 @@ const Skills = () => {
             {allSkills}
           </ul>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

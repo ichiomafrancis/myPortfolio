@@ -9,13 +9,13 @@ const Projects = () => {
   });
 
   return (
-    <div className='border-b border-gray-300'>
-      <div id='projects' className='p-10'>
+    <div className='min-h-screen flex items-center border-b border-gray-300'>
+      <section id='projects' className='p-10'>
         <h1 className='mb-6'>Projects</h1>
         <div className='flex flex-wrap-reverse justify-around'>
           {allProjects}
         </div>
-      </div>
+      </section>
     </div>
   );
 };

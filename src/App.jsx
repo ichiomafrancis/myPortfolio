@@ -9,7 +9,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className='h-full'>
+    <div className=''>
       <div className='h-16 w-screen flex justify-end items-center lg:hidden px-10 fixed bg-orange-primary'>
         <Header />
       </div>

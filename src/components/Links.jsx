@@ -10,8 +10,8 @@ const Links = () => {
             to='about'
             spy={true}
             smooth={true}
-            offset={0}
-            duration={500}
+            offset={-100}
+            duration={1000}
             className='nav-link p-4 pb-2'
           >
             About
@@ -22,8 +22,8 @@ const Links = () => {
             to='education'
             spy={true}
             smooth={true}
-            offset={0}
-            duration={500}
+            offset={-100}
+            duration={1000}
             className='nav-link p-4 pb-2'
           >
             Education
@@ -34,8 +34,8 @@ const Links = () => {
             to='skills'
             spy={true}
             smooth={true}
-            offset={0}
-            duration={500}
+            offset={-100}
+            duration={1000}
             className='nav-link p-4 pb-2'
           >
             Skills
@@ -46,8 +46,8 @@ const Links = () => {
             to='projects'
             spy={true}
             smooth={true}
-            offset={0}
-            duration={500}
+            offset={-100}
+            duration={1000}
             className='nav-link p-4 pb-2'
           >
             Projects
@@ -58,8 +58,8 @@ const Links = () => {
             to='interests'
             spy={true}
             smooth={true}
-            offset={0}
-            duration={500}
+            offset={-100}
+            duration={1000}
             className='nav-link p-4 pb-2'
           >
             Interest
@@ -70,8 +70,8 @@ const Links = () => {
             to='next'
             spy={true}
             smooth={true}
-            offset={0}
-            duration={500}
+            offset={-100}
+            duration={1000}
             className='nav-link p-4 pb-2'
           >
             What Next?
