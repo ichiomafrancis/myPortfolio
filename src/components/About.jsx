@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className='h-screen flex items-center border-b border-gray-300'>
+    <div className='min-h-screen flex items-center border-b border-gray-300'>
       <section id='about' className='p-10 '>
         <h1>
           <span>Francis Ifeanyi </span>
@@ -17,12 +17,27 @@ const About = () => {
         </h4>
 
         <p className='mt-12'>
-          Hello! My name is Francis Ifeanyi Chioma and I like coding things from
-          scratch and enjoy bringing ideas to life in the browser.
+          Hello! I am a passionate front-end developer with a strong drive to
+          create captivating and user-friendly web experiences. I like coding
+          things from scratch and enjoy bringing ideas to life in the browser.
         </p>
 
         <p className='mt-2'>
-          My interest in web development started back in 2022
+          My journey as a front-end developer began in year 2022 with a deep
+          curiosity for technology and design. I thrive on the continuous
+          evolution of web development trends and enjoy staying up-to-date with
+          the latest advancements in HTML, CSS, and JavaScript. Through my
+          diverse skill set and keen eye for detail, I transform concepts and
+          wireframes into polished websites.
+        </p>
+        <p className='mt-2'>
+          Collaboration is at the heart of my work ethos. I believe in the power
+          of effective communication and close collaboration with fellow team
+          members.
+        </p>
+        <p className='mt-2'>
+          As a lifelong learner, I embrace challenges and constantly seek new
+          opportunities to enhance my skills.
         </p>
 
         <nav className='mt-28 mb-6'>
@@ -32,8 +47,7 @@ const About = () => {
                 href='#'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-white'
-              >
+                className='text-white'>
                 <FaTwitter />
               </a>
             </li>
@@ -43,8 +57,7 @@ const About = () => {
                 href='https://github.com/ichiomafrancis'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-white'
-              >
+                className='text-white'>
                 <FaGithub />
               </a>
             </li>
@@ -54,8 +67,7 @@ const About = () => {
                 href='https://www.linkedin.com/in/ifeanyi-chioma-137214b6/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-white'
-              >
+                className='text-white'>
                 <FaLinkedinIn />
               </a>
             </li>

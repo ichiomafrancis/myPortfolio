@@ -10,15 +10,15 @@ import Header from './components/Header';
 function App() {
   return (
     <div className=''>
-      <div className='h-16 w-screen flex justify-end items-center lg:hidden px-10 fixed bg-orange-primary'>
+      {/* <div className='min-h-16 w-screen flex justify-end items-center lg:hidden px-10 py-4 bg-orange-primary'>
         <Header />
-      </div>
+      </div> */}
       <div className='lg:flex'>
         <div className='hidden lg:block'>
           <Sidebar />
         </div>
 
-        <div className='lg:grow lg:ml-80 pt-16 lg:pt-0'>
+        <div className='lg:grow lg:ml-80'>
           <About />
           <Education />
           <Skills />

@@ -12,8 +12,7 @@ const Links = () => {
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'
-          >
+            className='nav-link p-4 pb-2'>
             About
           </ScrollLink>
 
@@ -24,8 +23,7 @@ const Links = () => {
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'
-          >
+            className='nav-link p-4 pb-2'>
             Education
           </ScrollLink>
 
@@ -36,8 +34,7 @@ const Links = () => {
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'
-          >
+            className='nav-link p-4 pb-2'>
             Skills
           </ScrollLink>
 
@@ -48,8 +45,7 @@ const Links = () => {
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'
-          >
+            className='nav-link p-4 pb-2'>
             Projects
           </ScrollLink>
 
@@ -60,8 +56,7 @@ const Links = () => {
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'
-          >
+            className='nav-link p-4 pb-2'>
             Interest
           </ScrollLink>
 
@@ -72,8 +67,7 @@ const Links = () => {
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'
-          >
+            className='nav-link p-4 pb-2'>
             What Next?
           </ScrollLink>
         </nav>

@@ -1,9 +1,9 @@
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 
 const ProjectDisplay = ({ link, image, title, tools }) => {
-  const allTools = tools.map((tool) => {
-    return <li key={uuidv4()}>{tool}</li>;
-  });
+  // const allTools = tools.map((tool) => {
+  //   return <li key={uuidv4()}>{tool}</li>;
+  // });
 
   return (
     <div className='mt-6 hover'>

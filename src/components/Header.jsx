@@ -1,24 +1,34 @@
+import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
+import Links from './Links';
 
 const Header = () => {
+  const [show, setShow] = useState(false);
+
+  const handleShow = () => {
+    setShow(true);
+  };
+
+  const handleClose = () => {
+    setShow(false);
+  };
+
   return (
-    <header className='text-white'>
-      <FaBars />
-    </header>
+    <div>
+      {show ? (
+        <div className='flex w-full justify-between'>
+          <div className='' onClick={handleClose}>
+            close
+          </div>
+          <Links />
+        </div>
+      ) : (
+        <header className='text-white' onClick={handleShow}>
+          <FaBars />
+        </header>
+      )}
+    </div>
   );
 };
 
 export default Header;
-{
-  /* <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button>
-
-<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-  <div class="offcanvas-header">
-    <h5 id="offcanvasTopLabel">Offcanvas top</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    ...
-  </div>
-</div> */
-}
