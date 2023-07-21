@@ -9,16 +9,17 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className=''>
-      {/* <div className='min-h-16 w-screen flex justify-end items-center lg:hidden px-10 py-4 bg-orange-primary'>
+    <div className='min-h-screen'>
+      {/* min-h-16 flex w-screen items-center justify-end bg-orange-primary px-10 py-4 lg:hidden */}
+      <div className=''>
         <Header />
-      </div> */}
+      </div>
       <div className='lg:flex'>
         <div className='hidden lg:block'>
           <Sidebar />
         </div>
 
-        <div className='lg:grow lg:ml-80'>
+        <div className='lg:ml-80 lg:grow'>
           <About />
           <Education />
           <Skills />

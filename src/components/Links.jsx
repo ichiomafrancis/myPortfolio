@@ -1,73 +1,79 @@
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Links = () => {
   return (
-    <div className='flex flex-col '>
-      <div className='text-center mt-6 uppercase'>
-        <nav className='flex flex-col text-white/50 text-base font-semibold'>
+    <div className="flex flex-col ">
+      <div className="mt-6 text-center uppercase">
+        <nav className="flex flex-col text-base font-semibold text-white/50">
           <ScrollLink
-            activeClass='active'
-            to='about'
+            activeClass="active"
+            to="about"
             spy={true}
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'>
+            className="nav-link p-4 pb-2"
+          >
             About
           </ScrollLink>
 
           <ScrollLink
-            activeClass='active'
-            to='education'
+            activeClass="active"
+            to="education"
             spy={true}
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'>
+            className="nav-link p-4 pb-2"
+          >
             Education
           </ScrollLink>
 
           <ScrollLink
-            activeClass='active'
-            to='skills'
+            activeClass="active"
+            to="skills"
             spy={true}
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'>
+            className="nav-link p-4 pb-2"
+          >
             Skills
           </ScrollLink>
 
           <ScrollLink
-            activeClass='active'
-            to='projects'
+            activeClass="active"
+            to="projects"
             spy={true}
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'>
+            className="nav-link p-4 pb-2"
+          >
             Projects
           </ScrollLink>
 
           <ScrollLink
-            activeClass='active'
-            to='interests'
+            activeClass="active"
+            to="interests"
             spy={true}
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'>
+            className="nav-link p-4 pb-2"
+          >
             Interest
           </ScrollLink>
 
           <ScrollLink
-            activeClass='active'
-            to='next'
+            activeClass="active"
+            to="next"
             spy={true}
             smooth={true}
             offset={-100}
             duration={1000}
-            className='nav-link p-4 pb-2'>
+            className="nav-link p-4 pb-2"
+          >
             What Next?
           </ScrollLink>
         </nav>

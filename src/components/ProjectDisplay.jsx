@@ -6,16 +6,16 @@ const ProjectDisplay = ({ link, image, title, tools }) => {
   // });
 
   return (
-    <div className='mt-6 hover'>
-      <a href={link} target='_blank' rel='noopener noreferrer'>
+    <div className="hover mt-6">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <img
           src={image}
-          alt=''
-          className='w-80 h-64 rounded-lg overflow-hidden border border-gray-primary shadow-md'
+          alt=""
+          className="h-64 w-80 overflow-hidden rounded-lg border border-gray-primary shadow-md"
         />
       </a>
 
-      <h3 className='pt-3 text-center leading-7'>{title}</h3>
+      <h3 className="pt-3 text-center leading-7">{title}</h3>
     </div>
   );
 };

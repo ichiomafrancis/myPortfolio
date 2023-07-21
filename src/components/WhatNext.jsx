@@ -1,10 +1,10 @@
 const WhatNext = () => {
   return (
-    <div className='h-screen flex items-center'>
-      <section id='next' className='p-10'>
+    <div className="flex h-screen items-center">
+      <section id="next" className="p-10">
         <h1>What's Next</h1>
-        <div className='mt-12'>
-          <p className='mt-2'>
+        <div className="mt-12">
+          <p className="mt-2">
             I am constantly expanding my skill set and exploring new
             technologies to enhance my abilities as a front-end developer.
             Currently, I am diving deep into the realms of Next.js and
@@ -12,7 +12,7 @@ const WhatNext = () => {
             building robust web applications.
           </p>
 
-          <p className='mt-2'>
+          <p className="mt-2">
             My dedication to continuous learning fuels my vision of becoming a
             full-stack developer in the near future. I am enthusiastic about
             broadening my horizons and acquiring expertise in back-end
@@ -22,7 +22,7 @@ const WhatNext = () => {
             front-end and back-end functionality.
           </p>
 
-          <p className='mt-2'>
+          <p className="mt-2">
             I am excited about the opportunities that lie ahead as I embark on
             this journey towards becoming a versatile full-stack developer. As I
             progress in my learning, I am eager to take on new projects that
