@@ -6,11 +6,21 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 68px);
+  }
+
+  .toggle-btn {
+    @apply [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div]:rotate-[720deg] [&>div]:bg-transparent;
+  }
+}
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* Give default styles to some tags */
 body {
@@ -18,24 +28,15 @@ body {
 }
 
 h1 {
-  @apply text-3xl md:text-5xl font-bold text-black-primary uppercase;
+  @apply text-3xl font-bold uppercase text-black-primary md:text-5xl;
 }
 
 h2 {
-  @apply text-2xl md:text-3xl font-semibold text-black-primary;
+  @apply text-2xl font-semibold text-black-primary md:text-3xl;
 }
 
 h3 {
-  @apply text-xl md:text-2xl font-medium;
-}
-
-/* Styling of the nav-link for the Links components */
-.nav-link {
-  @apply pb-2 cursor-pointer;
-}
-
-.nav-link:hover {
-  @apply pr-3;
+  @apply text-xl font-medium md:text-2xl;
 }
 
 .active {
@@ -43,12 +44,12 @@ h3 {
 }
 
 /* Zoom in effect for the project Images */
-.hover a img {
+/* .hover a img {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-}
+} */
 
-.hover a:hover img {
+/* .hover a:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
